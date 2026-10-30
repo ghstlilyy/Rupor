@@ -16,6 +16,7 @@ targets:
         SWIFT_VERSION: "5.0"
         TARGETED_DEVICE_FAMILY: "1,2"
         GENERATE_INFOPLIST_FILE: YES
+        ASSETCATALOG_COMPILER_APPICON_NAME: AppIcon
         INFOPLIST_KEY_CFBundleDisplayName: Rupor
         INFOPLIST_KEY_NSMicrophoneUsageDescription: "Rupor записывает ваш голос, чтобы сразу проиграть его с эффектами."
         INFOPLIST_KEY_UILaunchScreen_Generation: YES

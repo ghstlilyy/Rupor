@@ -10,6 +10,7 @@
 		2C0B57BD39B1887E98BE8FA0 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7ADCD97C1573B3B6836D2EAC /* ContentView.swift */; };
 		529EA00510C32AC332208A3C /* AudioEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66FFFEF92AC3EECCC552C5D7 /* AudioEngine.swift */; };
 		65C01C22391AC1B3F8F0B352 /* VoiceEffect.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EA64A13B8FB18F2BA97F6E5 /* VoiceEffect.swift */; };
+		6CFE6B517B6B4A171EB0E71E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9956EBDFD71DD613B8F4A164 /* Assets.xcassets */; };
 		78C4E79DDC528AF9054ED2FE /* RuporApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6817B76EC48192093DA790D0 /* RuporApp.swift */; };
 /* End PBXBuildFile section */
 
@@ -17,6 +18,7 @@
 		66FFFEF92AC3EECCC552C5D7 /* AudioEngine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioEngine.swift; sourceTree = "<group>"; };
 		6817B76EC48192093DA790D0 /* RuporApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RuporApp.swift; sourceTree = "<group>"; };
 		7ADCD97C1573B3B6836D2EAC /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		9956EBDFD71DD613B8F4A164 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9EA64A13B8FB18F2BA97F6E5 /* VoiceEffect.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VoiceEffect.swift; sourceTree = "<group>"; };
 		CC97063154854DD64B18FD50 /* Rupor.app */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.application; path = Rupor.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -41,6 +43,7 @@
 		F7FE8CC0A0411024733A71E9 /* Rupor */ = {
 			isa = PBXGroup;
 			children = (
+				9956EBDFD71DD613B8F4A164 /* Assets.xcassets */,
 				66FFFEF92AC3EECCC552C5D7 /* AudioEngine.swift */,
 				7ADCD97C1573B3B6836D2EAC /* ContentView.swift */,
 				6817B76EC48192093DA790D0 /* RuporApp.swift */,
@@ -57,6 +60,7 @@
 			buildConfigurationList = 52AF431EC211F17393361658 /* Build configuration list for PBXNativeTarget "Rupor" */;
 			buildPhases = (
 				F44372CED7DB48939DA77EFD /* Sources */,
+				01C7C57CC75B7F84EE4CC327 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -98,6 +102,17 @@
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		01C7C57CC75B7F84EE4CC327 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6CFE6B517B6B4A171EB0E71E /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		F44372CED7DB48939DA77EFD /* Sources */ = {
